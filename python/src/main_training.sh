@@ -34,7 +34,7 @@ while [ "$1" != "" ]; do
         -i | --inputfile )  shift
             inputfile=$1;;
         -d | --datafile)  shift
-            inputfile=$1;;
+            datafile=$1;;
         -o | --output_folder )  shift
             output_folder=$1;;
         -s | --src_folder ) shift
